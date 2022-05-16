@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.container {
+.container{
     width: 100%;
     min-height: 8%;
     padding-left: 8%;
@@ -140,6 +140,11 @@ button:hover{
     width: 90%;
 }
 
+.col2 .new-i{
+    width: 90%;
+    align-items: center;
+}
+
 .color-box{
     position: absolute;
     right:0;
@@ -211,4 +216,21 @@ button:hover{
     .color-box{
         transform: translateX(75px);
     }
+
+    .col1{
+        flex-basis: 100%;
+
+    }
+
+    .col1 h2{
+        font-size: 30px;
+    }
+    
+    .col1 h3{
+        font-size: 25px;
+    }
+    
 }
+
+/*------About---------*/
+
